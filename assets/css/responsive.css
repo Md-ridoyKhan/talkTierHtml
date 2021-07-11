@@ -1,0 +1,675 @@
+/*################################################### 
+#START
+
+
+RESPONSIVE DEVICE
+=============================
+=============================
+
+1. 1400px devices
+    #home-one-1400-------------------]
+        1.1-1400 banner area here
+        1.2-1400 review area here
+        1.3-1400 video area here
+        1.4-1400 level area here
+        1.5-1400 screen area here
+        1.6-1400 review area here
+
+	
+
+2. 1200 xlarge devices
+    #home-1200-------------------]
+        2.1-1200 banner area here
+        2.2-1200 review area here
+        2.3-1200 level area here
+        2.4-1200 video area here
+        2.5-1200 screen area here
+
+
+3. 992px large devices
+    #home-one-992-------------------]
+        3.1-992 banner area here
+        3.2-992 video area here
+        3.3-992 level area here
+        3.4-992 footer area here
+        3.5-992 screen area here
+	
+	
+4. 768px medium devices
+    #home-one-768-------------------]
+        4.1-768 banner area here
+        4.2-768 review area here
+        4.3-768 footer area here
+	
+
+5. 576px small devices
+    #home-one-576-------------------]
+        5.1-576 header area here
+        5.2-576 banner area here
+        5.3-576 review area here
+        5.4-576 video area here
+        5.5-576 level area here
+        5.6-576 footer area here
+        5.7-576 screen area here
+
+
+#theEND
+###################################################*/
+
+
+/*##############################
+Extra large: ---------
+1. 1400px devices
+##############################*/
+@media screen and (max-width: 1400px){
+    /* 
+    #home-one-1400-------------------]
+    */
+    /*********************** 
+    1.1-1400 banner area here
+    ***********************/
+    .banner {
+        padding: 145px 0px 120px;
+    }
+    .bannerContent h1 {
+        margin-bottom: 20px;
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .bannerContent p {
+        margin-bottom: 24px;
+    }
+    /*********************** 
+    1.2-1400 review area here
+    ***********************/
+    .review {
+        padding: 120px 0px;
+    }
+    .reviewTitle {}
+    .title h2 {
+        line-height: 58px;
+    }
+    .screen {
+        padding: 120px 0px;
+    }
+
+    /* sync  area here */
+    #sync1 .owl-stage {
+        height: 220px;
+    }
+    .syncName {
+        margin-bottom: 20px;
+    }
+    .syncText p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .syncName h4 {
+        margin-bottom: 4px;
+        font-size: 26px;
+    }
+    .syncName p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #sync2 {
+        margin-top: 30px;
+    }
+    #sync2 .owl-dots .owl-dot span {
+        width: 14px;
+        height: 14px;
+        background: var(--dotsC);
+        border-radius: 50%;
+        margin: 4px 4px;
+    }
+    
+    /*********************** 
+    1.3-1400 video area here
+    ***********************/
+    .video {
+        padding: 120px 0px;
+    }
+    .videoTitle {
+        margin-bottom: 120px;
+    }
+    .ratting {
+        margin-left: 90px;
+    }
+
+    /*********************** 
+    1.4-1400 level area here
+    ***********************/
+    .level {
+        padding: 120px 0px;
+    }
+    .levelImg {
+        /* margin-right: 0px; */
+    }
+    .levelContent h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 30px;
+    }
+
+    /*********************** 
+    1.5-1400 screen area here
+    ***********************/
+    .swiper-slide {
+        width: 292px;
+    }
+    .swiperMobile {
+        width: 325px;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        margin-right: -180px;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        margin-left: -180px;
+    }
+    
+}
+
+
+/*############################## 
+Extra large: ---------
+2. 1200 xlarge devices
+##############################*/
+@media screen and (max-width: 1200px){
+    /* 
+    #home-one-1200-------------------]
+    */
+    /*********************** 
+    2.1-1200 banner area here
+    ***********************/
+    .banner {
+        padding: 145px 0px 100px;
+    }
+    .bannerContent h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .bannerContent p {
+        margin-bottom: 24px;
+        line-height: 32px;
+    }
+    .bannerImg {
+        margin-left: 40px;
+    }
+
+    /*********************** 
+    2.2-1200 review area here
+    ***********************/
+    .review {
+        padding: 100px 0px;
+    }
+    .title h2 {
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    /*********************** 
+    2.3-1200 level area here
+    ***********************/
+    .level {
+        padding: 100px 0px;
+    }
+    .levelContent h1 {
+        font-size: 44px;
+        line-height: 54px;
+        margin-bottom: 30px;
+    }
+    .levelImg {
+        margin-right: -50px;
+    }
+
+    /*********************** 
+    2.4-1200 video area here
+    ***********************/
+    .video {
+        padding: 100px 0px;
+    }
+    .videoTitle {
+        margin-bottom: 100px;
+    }
+    .videoTitle h2 {
+        line-height: 50px;
+        font-size: 40px;
+    }
+    .videoTitle p {
+        line-height: 30px;
+    }
+    .message {
+        margin-bottom: -188px;
+    }
+    .footer {
+        padding: 90px 0px 90px;
+    }
+
+    /*********************** 
+    2.5-1200 screen area here
+    ***********************/
+    .screen {
+        padding: 100px 0px;
+    }
+    .screenTitle {
+        margin-bottom: 40px !important;
+    }
+    .swiper-slide {
+        width: 244px;
+    }
+    .swiperMobile {
+        width: 271px;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        margin-right: -154px;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        margin-left: -154px;
+    }
+
+    /*********************** 
+    2.6-1200 review area here
+    ***********************/
+    #sync1 .owl-item.active.center + .active .syncImg img,
+    #sync1 .owl-item.active.firstActiveItem + .active .syncImg img {
+        transform: scale(1);
+    }
+    #sync1 .owl-item.active.lastActiveItem .syncImg img,
+    #sync1 .owl-item.active.center .syncImg img,
+    #sync1 .owl-item.active.firstActiveItem .syncImg img{
+        transform: scale(1.4);
+    }
+
+}
+
+
+/*############################## 
+large layout:  --------- 
+3. 992px large devices
+##############################*/
+@media screen and (max-width: 991px){
+    /* 
+    #home-one-992-------------------]
+    */
+    /*********************** 
+    3.1-992 banner area here
+    ***********************/
+    .bannerContent h1 {
+        font-size: 39px;
+        line-height: 49px;
+    }
+    .bannerImg {
+        margin-left: 0;
+        text-align: center;
+    }
+    .review, .video, .screen, .level, .footer{
+        padding: 80px 0px;
+    }
+    /*********************** 
+    3.2-992 video area here
+    ***********************/
+    .videoTitle {
+        margin-bottom: 60px;
+    }
+    .videoContent::after {
+        width: 80px;
+        height: 80px;
+        top: 27px;
+        right: -27px;
+    }
+    .videoContent a {
+        width: 60px;
+        height: 60px;
+    }
+    .videoContent a i {
+        font-size: 14px;
+    }
+    .message {
+        margin: 0 auto 20px;
+    }
+    .ratting {
+        margin: 20px auto 0;
+    }
+
+    /*********************** 
+    3.3-992 level area here
+    ***********************/
+    .levelItems {
+        grid-template-columns: auto;
+        grid-gap: 60px;
+    }
+    .levelContent {
+        text-align: center;
+    }
+    .levelContent ul {
+        justify-content: center;
+    }
+    .levelImg {
+        margin-right: 0;
+        text-align: center;
+    }
+    .levelImg img {
+        float: inherit;
+    }
+    .levelContent h1 {
+        font-size: 39px;
+        line-height: 49px;
+        margin-bottom: 24px;
+    }
+
+    /*********************** 
+    3.4-992 footer area here
+    ***********************/
+    .footerItems {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+    .footerContent > ul > li:first-child {
+        margin-bottom: 22px;
+    }
+    .footerIcon > li ul {
+        justify-content: start;
+    }
+    .footerIcon > li ul li {
+        margin-left: 0;
+        margin-right: 12px;
+    }
+    .footerIcon > li p {
+        text-align: start;
+    }
+
+    /*********************** 
+    3.5-992 screen area here
+    ***********************/
+    .swiper-slide {
+        width: 200px;
+    }
+    .swiperMobile {
+        width: 220px;
+    }
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+        width: 20px;
+        height: 20px;
+    }
+    .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+        width: 20px;
+        height: 20px;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        margin-right: -124px;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        margin-left: -124px;
+    }
+    #sync1 .owl-item.active.lastActiveItem .syncImg img, #sync1 .owl-item.active.center .syncImg img, #sync1 .owl-item.active.firstActiveItem .syncImg img {
+        transform: inherit !important;
+        max-width: 100% !important;
+        width: 200px !important;
+    }
+
+}
+
+
+/*############################## 
+Medium Layout: ---------
+4. 768px medium devices
+##############################*/
+@media screen and (max-width: 768px){
+    /* 
+    #home-one-768-------------------]
+    */
+    /*********************** 
+    4.1-768 banner area here
+    ***********************/
+    .banner {
+        padding: 170px 0px 60px;
+    }
+    .bannerItems {
+        grid-template-columns: auto;
+        grid-gap: 40px;
+    }
+    .bannerImg img {
+        float: inherit;
+        /* max-width: 100%; */
+    }
+    .bannerContent h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .bannerContent p {
+        margin-bottom: 24px;
+    }
+    /* header  */
+    .headerLogo a img {
+        max-width: 80%;
+    }
+    .headerbutton a {
+        padding: 12px 36px;
+    }
+    .review, .video, .screen, .level, .footer {
+        padding: 60px 0px;
+    }
+    .title h2 {
+        line-height: 42px;
+        font-size: 32px;
+    }
+
+    /*********************** 
+    4.2-768 review area here
+    ***********************/
+    .reviewTitle {
+        margin-bottom: 40px;
+    }
+    .review .container-fluid{
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+    }
+    .review .col{
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+    }
+    
+    .levelContent h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    
+    /*********************** 
+    4.3-768 footer area here
+    ***********************/
+    .footerAbout li p br {
+        display: none;
+    }
+    
+}
+
+
+/*############################## 
+Small Layout: ---------
+5. 576px small devices
+##############################*/
+@media screen and (max-width: 576px){
+    /* 
+    #home-one-576-------------------]
+    */
+    /*********************** 
+    5.1-576 header area here
+    ***********************/
+    .headerLogo a img {
+        width: 120px;
+    }
+    .headerbutton a {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 10px 12px;
+    }
+    /* all vector area display none  */
+    .vectors {
+        display: none;
+    }
+
+    /*********************** 
+    5.2-576 banner area here
+    ***********************/
+    .banner {
+        padding: 150px 0px 60px;
+    }
+    .bannerContent {
+        text-align: center;
+    }
+    .bannerContent ul {
+        justify-content: center;
+    }
+    .bannerContent ul li a img {
+        width: 120px;
+        height: 48px;
+    }
+    .bannerContent h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .bannerContent h1 br{
+        display: none;
+    }
+    .bannerContent ul li:last-child {
+        margin-left: 12px;
+    }
+    .bannerContent p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    /*********************** 
+    5.3-576 review area here
+    ***********************/
+    .review, .video, .level, .footer {
+        padding: 60px 0px;
+    }
+    .title h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .review .container-fluid{
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+    }
+    .review .container-fluid .col-md-12{
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    /* sync  */
+    .syncPadding2.row>* {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    #sync2 {
+        margin-top: 20px;
+    }
+    .syncText p br {
+        display: none;
+    }
+    .syncText {
+        margin-bottom: 14px;
+    }
+    .syncName {
+        margin-bottom: 14px;
+    }
+    /* other  */
+    .singleTest {
+        padding: 20px 15px 0px 15px;
+    }
+    
+    /*********************** 
+    5.4-576 video area here
+    ***********************/
+    .videoTitle {
+        margin-bottom: 40px;
+    }
+    .videoTitle h2 {
+        margin-bottom: 10px;
+    }
+    .videoContent::after {
+        right: -15px;
+        top: 15px;
+    }
+
+    /*********************** 
+    5.5-576 level area here
+    ***********************/
+    .levelItems {
+        grid-gap: 40px;
+    }
+    .levelContent h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    .levelContent h1 br{
+        display: none;
+    }
+    .levelContent ul li:last-child {
+        margin-left: 12px;
+        margin-top: 0;
+    }
+    .levelContent ul li a img {
+        max-width: 120px;
+        height: 40px;
+    }
+
+    /*********************** 
+    5.6-576 footer area here
+    ***********************/
+    .footerItems {
+        grid-gap: 40px;
+        grid-template-columns: auto;
+    }
+    .footerContent > ul > li:first-child {
+        margin-bottom: 20px;
+    }
+    .footerContent {
+        text-align: center;
+    }
+    .footerIcon > li ul {
+        justify-content: center;
+    }
+    .footerIcon > li ul li {
+        margin: 0px 5px;
+    }
+    .footerIcon > li p {
+        text-align: center;
+    }
+
+
+    /*********************** 
+    5.7-576 screen area here
+    ***********************/
+    .screen{
+        padding: 60px 0px 48px;
+    }
+    .screenTitle {
+        margin-bottom: 32px !important;
+    }
+
+    .swiper-container {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .swiper-slide {
+        width: 185px;
+    }
+    .swiperMobile {
+        width: 202px;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        margin-right: -113px;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        margin-left: -113px;
+    }
+
+
+}
+/*########################
+#theEndRESPONSIVE########################
+########################*/
