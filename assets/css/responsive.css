@@ -33,6 +33,7 @@ RESPONSIVE DEVICE
         3.3-992 level area here
         3.4-992 footer area here
         3.5-992 screen area here
+        3.6-992 review area here
 	
 	
 4. 768px medium devices
@@ -402,12 +403,27 @@ large layout:  ---------
     .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
         margin-left: -124px;
     }
+
+    /*********************** 
+    3.6-992 review area here
+    ***********************/
     #sync1 .owl-item.active.lastActiveItem .syncImg img, #sync1 .owl-item.active.center .syncImg img, #sync1 .owl-item.active.firstActiveItem .syncImg img {
         transform: inherit !important;
+        -webkit-transform: inherit !important;
         max-width: 100% !important;
         width: 200px !important;
     }
-
+    #sync1 .owl-item .syncImg img {
+        opacity: 0;
+        transition: inherit;
+        -webkit-transform: inherit !important;
+    }
+    #sync1 .owl-item.active.firstActiveItem img,
+    #sync1 .owl-item.active.center img,
+    #sync1 .owl-item.active.lastActiveItem img { 
+        transition: inherit;
+        -webkit-transform: inherit !important;
+    }
 }
 
 

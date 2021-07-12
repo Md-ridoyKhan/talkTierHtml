@@ -475,6 +475,62 @@ banner area ends here
 #sync1 .owl-item.active.lastActiveItem .syncImg img{
     transform: scale(1.4);
 }
+#sync1 .owl-item.active.center + .active + .lastActiveItem{
+    transform: scale(1);
+    z-index: 5 !important;
+}
+#sync1 .owl-item.active.center + .active + .lastActiveItem .syncImg img {
+    transform: scale(1);
+}
+#sync1 .owl-item.active.firstActiveItem{
+    z-index: 8;
+}
+#sync1 .owl-item.active.firstActiveItem .syncImg{}
+#sync1 .owl-item.active.firstActiveItem .syncImg img {
+    transform: scale(1.4);
+}
+#sync1 .owl-item.active.firstActiveItem + .active{}
+#sync1 .owl-item.active.firstActiveItem + .active .syncImg{}
+#sync1 .owl-item.active.firstActiveItem + .active .syncImg img{}
+#sync1 .owl-item.active.lastActiveItem{
+    z-index: 8;
+}
+#sync1 .owl-item.active.lastActiveItem .syncImg{}
+#sync1 .owl-item.active.lastActiveItem .syncImg img{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+}
+/* new  */
+#sync1 .owl-item .syncImg img {
+    opacity: 0;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+}
+#sync1 .owl-item.active.firstActiveItem img,
+#sync1 .owl-item.active.center img,
+#sync1 .owl-item.active.lastActiveItem img { 
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+}
+
+#sync1 .owl-item img {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+}
+
+#sync1 .owl-item.active img {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+#sync1 .owl-item.active img {
+    transform: scale(.95);
+    -webkit-transform: scale(.95);
+}
+.owl-item.active.lastActiveItem + .active img {
+    transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+}
+
 /* sync 2 */
 .syncPadding2.row>* {
     padding-left: 0;
